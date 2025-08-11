@@ -30,4 +30,13 @@ Download mpv-osc.zip or portable_config.zip from [mpv-build](https://mpv-easy.gi
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/4c4c6988-c8d9-4906-b49c-80c059123706" />
 
 ### https://github.com/Andarwinux/mpv-winbuild
+
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/42aba3b4-d5d9-414a-8c34-b5ecef7c2b66" />
+
+### https://nightly.link/mpv-player/mpv/workflows/build/master mpv-x86_64-pc-windows-msvc
+
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/d4f1c769-7385-4869-a324-835c33b237fd" />
+
+### https://nightly.link/mpv-player/mpv/workflows/build/master mpv-x86_64-w64-mingw32
+
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/a4b543db-f0a3-450f-9a8a-0d4d897b9c4b" />
