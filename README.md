@@ -40,3 +40,18 @@ Download mpv-osc.zip or portable_config.zip from [mpv-build](https://mpv-easy.gi
 ### https://nightly.link/mpv-player/mpv/workflows/build/master mpv-x86_64-w64-mingw32
 
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/a4b543db-f0a3-450f-9a8a-0d4d897b9c4b" />
+
+## V8V7_RUNS
+
+The default value is 1, and you can set it to 10 to run ten times, which can be used to eliminate accidental errors.
+
+bash
+
+```bash
+V8V7_RUNS=10 ./mpv.exe --idle
+```
+
+fish
+```fish
+set -x V8V7_RUNS 2 ./mpv.exe --idle
+```
