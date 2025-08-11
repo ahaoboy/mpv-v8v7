@@ -19,3 +19,15 @@ The original benchmark code comes from [mozilla/arewefastyet](https://github.com
 
 Download mpv-osc.zip or portable_config.zip from [mpv-build](https://mpv-easy.github.io/mpv-build/#mpv-build=%22%7B%5C%22state%5C%22%3A%7B%5C%22selectedRowKeys%5C%22%3A%5B%5C%22mpv-v8v7%5C%22%5D%2C%5C%22externalList%5C%22%3A%5B%5D%2C%5C%22ui%5C%22%3A%5C%22osc%5C%22%2C%5C%22platform%5C%22%3A%5C%22mpv-v3%5C%22%7D%7D%22)
 
+## bench mpv-x86_64-v3
+
+### https://github.com/zhongfly/mpv-winbuild
+
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/32e37ce6-cc15-4c86-8964-afd587aae2eb" />
+
+### https://github.com/shinchiro/mpv-winbuild-cmake
+
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/4c4c6988-c8d9-4906-b49c-80c059123706" />
+
+### https://github.com/Andarwinux/mpv-winbuild
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/42aba3b4-d5d9-414a-8c34-b5ecef7c2b66" />
