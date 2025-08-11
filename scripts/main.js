@@ -1,7 +1,5 @@
 var run = require("./run")
 
-
-
 var n = 100000
 var testLog = []
 
@@ -11,9 +9,9 @@ function log(s) {
 }
 function startTest() {
   run.v8v7(log)
-  testLog.push("Test has completed.")
-  mp.osd_message(testLog.join("\n"), n);
-
+  var d = mp.get_script_file().split("/").slice(0, -1).join("/")
+  var path = ["file://", d, "/v8v7-", +new Date(), ".log"].join('')
+  mp.utils.write_file(path, testLog.join('\n'))
 }
 
 mp.osd_message("Test is starting...", n);
