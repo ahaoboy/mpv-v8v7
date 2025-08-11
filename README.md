@@ -53,5 +53,5 @@ V8V7_RUNS=10 ./mpv.exe --idle
 
 fish
 ```fish
-set -x V8V7_RUNS 2 ./mpv.exe --idle
+set -x V8V7_RUNS 10 ./mpv.exe --idle
 ```
