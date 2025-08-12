@@ -2,6 +2,7 @@ var run = require("./run")
 var n = 100000
 var testLog = []
 var runs = +(mp.utils.getenv("V8V7_RUNS") || "1")
+var quit = !!mp.utils.getenv("V8V7_QUIT")
 var runId = 1;
 
 function log(s) {
@@ -25,6 +26,10 @@ function startTest() {
 
   runId = 1
   testLog = []
+
+  if(exit){
+    mp.command("quit");
+  }
 }
 
 mp.osd_message("Test is starting...", n);

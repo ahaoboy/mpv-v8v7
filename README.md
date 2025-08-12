@@ -55,3 +55,7 @@ fish
 ```fish
 set -x V8V7_RUNS 10 ./mpv.exe --idle
 ```
+
+## V8V7_QUIT
+
+Quit mpv after running the test
